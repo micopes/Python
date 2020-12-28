@@ -1,0 +1,19 @@
+- List(리스트)
+*로 매개변수 설정. C의 포인터와 헷갈리지 않도록 주의
+
+def para_func(*para):
+    result = 0
+    for num in para:
+        result = result + num
+        
+    return result
+
+a = para_func(1, 2, 3, 4, 14, 13415)
+print(a)
+
+동작!
+위와 같은 예제의 경우 para에 몇개를 넣든 상관없이 동작 가능
+
+
+
+

@@ -1,0 +1,11 @@
+>>> str = "Hi my name is limcoing"
+>>> splitted_str = str.split()
+>>> print(splitted_str)
+['Hi', 'my', 'name', 'is', 'limcoing']
+
+>>> joined_str = "".join(splitted_str)
+>>> print(joined_str)
+Himynameislimcoing
+
+>>> "-'.join(splitted_str)
+Hi-my-name-is-limcoing
